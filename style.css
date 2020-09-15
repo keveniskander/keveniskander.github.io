@@ -5,4 +5,10 @@
 
 body {
     background-color: #e1dfd9;
+    text-align:center;
    }
+
+div.container {
+
+    align-content:center;
+}
