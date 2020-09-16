@@ -7,3 +7,7 @@ body {
     background-color: #e1dfd9;
     text-align:center;
    }
+
+.bg-dark {
+    background-color: transparent !important;
+}
