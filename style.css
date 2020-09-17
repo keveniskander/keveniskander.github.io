@@ -3,14 +3,22 @@
     padding: 0;
 }
 
-html {
+html, body {
   scroll-behavior: smooth;
+  background-color: #e1dfd9;
+  text-align:center;
+  width: 100%;
+  height: auto;
+
 }
 
-body {
-    background-color: #e1dfd9;
-    text-align:center;
-   }
+section, div {
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
 .scroll { 
   font-family: 'Roboto Mono', monospace;
