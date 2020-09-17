@@ -20,6 +20,12 @@ section, div {
   overflow-x: hidden;
 }
 
+.bg-dark {
+  background-color: transparent !important;
+}
+
+/* ALL SCROLL EFFECTS FOUND BELOW */
+
 .scroll { 
   font-family: 'Roboto Mono', monospace;
   font-size: large;
@@ -34,6 +40,7 @@ section, div {
     position: relative;
     width: 100%;
     height: 100%;
+    overflow: hidden;
     background-image: url("images/wallpaper.png")!important;
     
   }
@@ -49,8 +56,18 @@ section, div {
   }
 
    #separator a {
-    padding-top: 70px;
+    z-index: 1;
+    border: 0px hidden;
+    height: 100px;
+    color: #fff;
+    width: 1000px;
+    top: 85%;
+    left: 50%;
+    margin-left: -500px;
+    display: block;
     font-family: 'Roboto Mono', monospace;
+    padding-top: 70px;
+    
   }
 
   #separator h1 {
@@ -60,7 +77,7 @@ section, div {
     color: #fff;
     position: relative;
     width: 1000px;
-    top:50%;
+    top:60%;
     left: 50%;
     margin-left: -500px;
     display:block;
@@ -120,9 +137,7 @@ section, div {
   
   
 
-.bg-dark {
-    background-color: transparent !important;
-}
+
 
 
 
@@ -171,3 +186,32 @@ section, div {
   .scroll a:hover {
     opacity: .5;
   }
+
+  /* ALL TYPEWRITER EFFECTS FOUND BELOW */
+
+  .line1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255, 255, 255, 0.75);}
+  to{border-right-color: transparent;}
+}
