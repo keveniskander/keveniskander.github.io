@@ -12,6 +12,11 @@ body {
     text-align:center;
    }
 
+.scroll { 
+  font-family: 'Roboto Mono', monospace;
+  color: #fff;
+}
+
    #separator {
     position: relative;
     width: 100%;
@@ -32,12 +37,19 @@ body {
 
    #separator a {
     padding-top: 70px;
+    font-family: 'Roboto Mono', monospace;
   }
 
   #separator h1 {
-      position: absolute;
-      top: 50%;
-      left: 50%;
+    border: 0px hidden; 
+    height: 100px;
+    color: #fff;
+    position: relative;
+    width: 1000px;
+    top:50%;
+    left: 50%;
+    margin-left: -500px;
+    display:block;
       /* need to fix this portion */
   }
    #separator a span {
