@@ -41,6 +41,7 @@ body {
   }
 
   #separator h1 {
+    z-index: 1;
     border: 0px hidden; 
     height: 100px;
     color: #fff;
