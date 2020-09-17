@@ -29,6 +29,13 @@ body {
    #separator a {
     padding-top: 70px;
   }
+
+  #separator h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      /* need to fix this portion */
+  }
    #separator a span {
     position: absolute;
     top: 90%;
