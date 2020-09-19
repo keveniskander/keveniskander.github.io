@@ -40,6 +40,27 @@ section, div {
   position: relative;
 }
 
+#aboutme {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 600px;
+  padding: 30px;
+  background-color: #403e39;
+  color: #fff;
+  box-sizing: border-box;
+  border-radius: px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background: url(images/profile-circle-cropped.png);
+  border-radius: 50%;
+}
+
    #pageheader {
     font-family: 'Inter', sans-serif;
    }
@@ -52,6 +73,7 @@ section, div {
     background-image: url("images/wallpaper.png")!important;
     
   }
+
   #separator::after {
     position: absolute;
     bottom: 0;
