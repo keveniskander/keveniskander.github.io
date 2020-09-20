@@ -27,7 +27,7 @@ section, div {
 /* ALL SCROLL EFFECTS FOUND BELOW */
 
 .scroll { 
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Tenor Sans', sans-serif;
   font-size: large;
   color: #fff;
 }
@@ -46,12 +46,14 @@ section, div {
   left: 50%;
   transform: translate(-50%,-50%);
   width: 600px;
+  height: 280px;
   padding: 30px;
-  background-color: #403e39;
-  color: #fff;
+  background-color: #fff;
+  color: #000000;
   box-sizing: border-box;
-  border-radius: px;
+  border-radius: 10px;
   box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  overflow-y: hidden;
 }
 
 .circle {
@@ -59,6 +61,16 @@ section, div {
   height: 200px;
   background: url(images/profile-circle-cropped.png);
   border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+  margin: 30px 30px 30px 0;  
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  line-height: 22px;
 }
 
    #pageheader {
@@ -166,7 +178,7 @@ section, div {
   }
 
 #topsection{
-  background-image: url(images/about-me-wallpaper.png)!important;
+  background-image: url(images/Alternate-Portfolio-Background.png)!important;
   
 }
 
