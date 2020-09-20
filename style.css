@@ -256,3 +256,7 @@ p {
   from{border-right-color: rgba(255, 255, 255, 0.75);}
   to{border-right-color: transparent;}
 } */
+
+#bottomsection {
+  background-image: url("images/tools-background.png");
+}
