@@ -62,15 +62,10 @@ section, div {
   border-radius: 50%;
   float: left;
   shape-outside: circle();
-  margin: 30px 30px 30px 0;  
+  margin: 50px 30px 30px 0;  
 }
 
-p {
-  margin: 0;
-  padding: 0;
-  text-align: justify;
-  line-height: 22px;
-}
+
 
    #pageheader {
     font-family: 'Inter', sans-serif;
@@ -96,7 +91,7 @@ p {
     background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
   }
 
-   #separator a {
+   #scroll {
     z-index: 1;
     border: 0px hidden;
     height: 100px;
@@ -118,13 +113,13 @@ p {
     color: #fff;
     position: relative;
     width: 1000px;
-    top:60%;
+    top:50%;
     left: 50%;
     margin-left: -500px;
     display:block;
       /* need to fix this portion */
   }
-   #separator a span {
+   #scroll span {
     position: absolute;
     top: 90%;
     left: 50%;
@@ -263,7 +258,7 @@ p {
 }
 
 #languages {
-  font-size: 60pt;
+  font-size: 45pt;
 }
 
 .navicons {
