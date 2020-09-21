@@ -59,6 +59,8 @@ section, div {
   width: 200px;
   height: 200px;
   background: url(images/profile-circle-cropped.png);
+  background-position: center;
+  background-size: 100%;
   border-radius: 50%;
   float: left;
   shape-outside: circle();
