@@ -21,9 +21,13 @@ section, div {
 }
 
 .bg-dark {
+  transition: 750ms ease;
   background-color: transparent !important;
 }
 
+.bg-dark.scrolled {
+  background-color: #403e39 !important;
+}
 /* ALL SCROLL EFFECTS FOUND BELOW */
 
 .scroll { 
