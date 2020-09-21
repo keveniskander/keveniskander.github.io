@@ -40,7 +40,7 @@ section, div {
   position: relative;
 }
 
-#aboutme {
+#aboutme, #languages, #tools {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -259,4 +259,17 @@ p {
 
 #bottomsection {
   background-image: url("images/tools-background.png");
+  
+}
+
+#languages {
+  font-size: 60pt;
+}
+
+.navicons {
+  font-size: 20pt;
+}
+
+.icons :hover{
+  opacity: 0.5;
 }
