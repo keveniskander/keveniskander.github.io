@@ -44,7 +44,7 @@ section, div {
   position: relative;
 }
 
-#aboutme, #languages, #tools {
+#aboutme, #languages, #tools, #cuddlebug {
   position: absolute;
   top: 50%;
   left: 50%;
