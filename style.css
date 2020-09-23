@@ -57,6 +57,7 @@ section, div {
   border-radius: 10px;
   box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
   overflow-y: hidden;
+  
 }
 
 .circle {
@@ -83,6 +84,7 @@ section, div {
     height: 100%;
     overflow: hidden;
     background-image: url("images/wallpaper.png")!important;
+    background-size: cover;
     
   }
 
@@ -178,7 +180,8 @@ section, div {
   }
 
 #topsection{
-  background-image: url(images/Alternate-Portfolio-Background.png)!important;
+  background-image: url(images/portfolio-background.png)!important;
+  background-size: cover;
   
 }
 
@@ -260,6 +263,7 @@ section, div {
 
 #bottomsection {
   background-image: url("images/tools-background.png");
+  background-size: cover;
   
 }
 
@@ -273,4 +277,9 @@ section, div {
 
 .icons :hover{
   opacity: 0.5;
+}
+
+#currentproject {
+  background-image: url("images/cuddlebug-background.png");
+  background-size: cover;
 }
