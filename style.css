@@ -288,4 +288,30 @@ section, div {
   #scroll {
       display: none;
   }
+  #name {
+    font-size: 28px;
+  }
+  #separator{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  #aboutme, #languages, #tools, #cuddlebug {
+    background-color: transparent;
+    color: #fff;
+    max-width: 320px;
+    min-height: 568px;
+    font-size: small;
+  }
+
+  .icons {
+    font-size: 40px;
+  }
+
+  .circle {
+    float: none;
+    height: 150px;
+    width: 150px;   
+    float: none;
+    margin: auto;
+  }
 }
