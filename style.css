@@ -284,6 +284,26 @@ section, div {
   background-size: cover;
 }
 
+/* IMAGE SLIDER CSS */
+
+/* #carouselslider {
+  width: 100%;
+  height: 100vh;
+} */
+
+
+.carousel-inner{
+  width:100%;
+  
+}
+.item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
 @media only screen and (max-width: 500px) {
   #scroll {
       display: none;
@@ -298,7 +318,7 @@ section, div {
   #aboutme, #languages, #tools, #cuddlebug {
     background-color: transparent;
     color: #fff;
-    max-width: 320px;
+    min-width: 320px;
     min-height: 568px;
     font-size: small;
   }
