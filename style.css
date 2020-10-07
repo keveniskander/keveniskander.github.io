@@ -270,7 +270,7 @@ section, div {
     min-height: 500px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 580px) {
   #scrollp {
       display: none;
   }
@@ -306,5 +306,9 @@ section, div {
   }
   .carousel-control-prev{
     display: none;
+  }
+
+  #cimage1, #cimage2{
+    margin-top: 50%;
   }
 }
