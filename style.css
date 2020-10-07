@@ -75,7 +75,7 @@ section, div {
 
 
    #pageheader {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Tenor Sans', sans-serif;
    }
 
    #separator {
@@ -109,7 +109,7 @@ section, div {
     left: 50%;
     margin-left: -500px;
     display: block;
-    font-family: 'Roboto Mono', monospace;
+    /* font-family: 'Roboto Mono', monospace; */
     padding-top: 70px;
     
   }
@@ -287,10 +287,16 @@ section, div {
     min-width: 320px;
     min-height: 568px;
     font-size: small;
+    font-family: 'Tenor Sans', sans-serif;
+    overflow: -moz-hidden-unscrollable;
+    box-sizing: border-box;
+    border-radius: initial;
+    box-shadow: initial;
   }
 
   .icons {
-    font-size: 40px;
+    font-size: 50px;
+    overflow: hidden;
   }
 
   .circle {
