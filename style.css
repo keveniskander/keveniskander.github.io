@@ -274,6 +274,10 @@ section, div {
   #scrollp {
       display: none;
   }
+
+  #scroll {
+    top: 70%;
+  }
   #name {
     font-size: 28px;
   }
