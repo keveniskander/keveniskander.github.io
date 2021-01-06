@@ -367,10 +367,7 @@ section, div {
   align-items: stretch;
   overflow: hidden;
 }
-.bubble-expand-clicked p, img{
+.bubble-expand-clicked p, img, h4, a, i{
   visibility: visible!important;
   align-items: center;
-}
-.bubble-expand-clicked i{
-  visibility: hidden!important;
 }
