@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://css.gg/add.css' rel='stylesheet'>
 
 
         <title>Keven Iskander-Programmer</title>
@@ -109,9 +110,10 @@
                     
             </div>
             <h2>Computer Science (BSc)</h2>
-                    <p>I'm a 4th year Computer Science student at Wilfrid Laurier University. I am an engaged, creative programmer tuned and focused towards back-end development with a newfound aptitude for front-end design.
-                    Set to graduate in the spring of 2021, I'm setting my sights on oportunities in the cybersecurity industry, as well as, data science and analytics. From applied cryptography to mobile computing,
-                    I love developing strong algorithms and showcasing my design skills in procedural, object-oriented and low-level programming.</p>
+                    <p>Enthusiastic, creative programmer tuned and focused on back-end development with an aptitude for front end web design.<br><br>
+
+                        Set to graduate in May 2021, I am seeking entry level opportunities in cybersecurity, web development and IT consulting. My passion for developing strong algorithms and showcasing my skills in procedural, low-level, and object-oriented programming motivate me to fulfill my projects to the end. 
+                        </p>
         </div>    
     </section>
 
@@ -164,7 +166,7 @@
 
     <div style="height: 1vh; background: #ffffff;"></div>
 
-    <section class="center" id="currentproject" style="margin: auto; height: 99vh;">
+    <section class="center" id="currentproject" style="margin: auto; align-items: center; height: 99vh;">
 
 
         <!--<img src="images/app-loading.png" style="left: 30%">
@@ -177,7 +179,7 @@
 
 
         <!-- Carousel slider css pulled from Bootstrap -->
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" id="carouselslider">
+        <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" id="carouselslider">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -202,8 +204,8 @@
                 </div>
                 <div class="carousel-item" style="height: 95vh;">
                 <div class="container" id="carousel-item" style="max-width: 600px; padding: 5px; text-align: center; color: white; position: relative; top: 30%;
-                box-sizing: border-box; border-radius: 10px; box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);">
-                <h2>MORE PROJECTS ON THE WAY!</h2><br></br>
+                box-sizing: border-box; border-radius: 10px; box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);"> -->
+                <!-- <h2>MORE PROJECTS ON THE WAY!</h2><br></br> -->
                 <!-- <p>Other than my personal projects, I'm currently enrolled in full time studies! Here's a list of my courses:<br><ul>
                     <h6><li style="color: #dd8170;">CP414 - Foundations in Computing</li>
                     <li style="color: #dd8170;">CP460 - Cryptography</li>
@@ -211,7 +213,7 @@
                     <li style="color: #dd8170;">CP470 - Android Programming</li>
                     <li style="color: #dd8170;">CP340 - E-Commerce</li></h6>
                   </ul></p></div> -->
-                </div>
+                <!-- </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -222,11 +224,28 @@
                 <span class="sr-only">Next</span>
             </a>
             
-        </div>
+        </div> -->
 
         <!--<img src="images/quarter-circle.png" style="bottom: 0%; right:0%">-->
 
+        <div class="bubble-container">
+            
+            <div onclick="expand(this);" class="bubble-expand" style="overflow: hidden;">
+                <div class="center" style="top: 25%; color: #ffffff; overflow: hidden;">
+                    <h2>CuddleBug</h2>
+                    <p>The perfect android movie selection app!</p>
+                    <i class="gg-add" style="left: 45%;"></i>
+                    <a id="cuddlebug-github" style="size: 10px; color: #ffffff; visibility: hidden;" href="https://github.com/alexanderfrancis/CP470finalproject">github repository</a>
+                    <img src="images/app-skeleton.png" style="visibility: hidden;">
+                    
+            </div>
+            
+        </div>
+        
+        
     </section>
+    
+    <div style="height: 2vh; background: #ffffff;"><p style="font-size: xx-small; color:black;">Keven Iskander &copy; 2020.</p></div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -239,6 +258,13 @@
         $(window).scroll(function(){
             $('nav').toggleClass('scrolled', $(this).scrollTop() > 200);
         });
+        function expand(obj) {
+            if (obj.className == 'bubble-expand-clicked bubble-expand') {
+                obj.className = 'bubble-expand';
+            } else {
+                obj.className = 'bubble-expand-clicked bubble-expand';
+            }
+        }
     </script>
   </body>
 </html>
