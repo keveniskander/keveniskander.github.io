@@ -371,3 +371,6 @@ section, div {
   visibility: visible!important;
   align-items: center;
 }
+.bubble-expand-clicked #plus{
+  visibility: hidden!important;
+}
